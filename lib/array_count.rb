@@ -3,6 +3,7 @@ def count_strings(array)
   
   array.count do |total|
     # total.is_a? String
+    total.string?
   end
   
 end
